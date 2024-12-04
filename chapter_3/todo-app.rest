@@ -1,0 +1,23 @@
+### GET /
+GET http://localhost:5003
+
+
+
+### register user 
+POST http://localhost:5003/auth/register
+Content-Type: application/json
+
+{
+    "username":"hotdog@gmail.com",
+    "password":"123123123"
+}
+
+### login user
+
+POST http://localhost:5003/auth/login
+Content-Type: application/json
+
+{
+    "username":"hotdog@gmail.com",
+    "password":"123123123"
+}
