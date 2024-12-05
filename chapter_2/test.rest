@@ -1,0 +1,22 @@
+### TEST GET / WEBSITE
+
+GET http://localhost:8383
+
+### TEST GET /dashboard WEBSITE
+
+GET http://localhost:8383/dashboard
+
+
+GET http://localhost:8383/api/data
+
+###DATA ENDPOINT for adding a user
+
+POST http://localhost:8383/api/data
+Content-Type: application/json
+
+{
+    "name":"hotdog"
+}
+
+### DELETE ENDPOINT
+DELETE http://localhost:8383/api/data
